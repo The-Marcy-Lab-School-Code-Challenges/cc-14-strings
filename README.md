@@ -10,9 +10,8 @@
 
 ## Code Problems
 
-1. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers. You must solve this without using any array methods.  
+1. Declare a function named `removeSpaces` that takes in a string argument and returns a new string with all the white spaces removed. You must solve this without using any JavaScript string methods.
 ```
-averageInArray([2,4,5,7,8]) // returns 19.8
-averageInArray([2,2,5,10]) // returns 4.75
-averageInArray([2,2,2,2,2]) //returns 2
+removeSpaces("Hello I love to code.") // "HelloIlovetocode."
+removeSpaces("Marcy Lab  School") // "MarcyLabSchool"
 ```
