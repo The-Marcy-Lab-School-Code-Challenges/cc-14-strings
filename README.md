@@ -10,8 +10,9 @@
 
 ## Code Problems
 
-1. Declare a function named `removeSpaces` that takes in a string argument and returns a new string with all the white spaces removed. You must solve this without using any JavaScript string methods.
+1. Declare a function called `stripUpperCase` that takes in a string argument and returns that string with all uppercase letters removed.
 ```
-removeSpaces("Hello I love to code.") // "HelloIlovetocode."
-removeSpaces("Marcy Lab  School") // "MarcyLabSchool"
+stripUpperCase('Hello!'); // 'ello!'
+stripUpperCase('SevenEleven'); // 'evenleven'
+stripUpperCase("Don't play with Me!"); // 'ont play with e!'
 ```
